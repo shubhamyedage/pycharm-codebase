@@ -1,0 +1,77 @@
+Earnings per share:
+  key_list: Earnings per share, Basic EPS
+  is_ratio: True
+  children:
+    div:
+      divisor:
+        Total shares outstanding:
+          key_list: Weighted average shares outstanding, Basic Average Shares
+      dividend:
+        Net income:
+          key_list: Net income
+          children:
+            sub:
+              Tax Provision:
+                key_list: Tax Provision, Provision for income taxes
+                children:
+            add:
+              Pretax Income:
+                key_list: Pretax Income, Income before taxes
+                children:
+                  sub:
+                    Interest Expense:
+                      key_list: Interest Expense, Net Non Operating Interest Income Expense
+                      children:
+                        add:
+                          Interest Income Non Operating:
+                            key_list: Interest Income Non Operating
+                          Earnings From Equity Interest:
+                            key_list: Earnings From Equity Interest
+                          sub:
+                            Interest Expense Non Operating:
+                              key_list: Interest Expense Non Operating
+                            Other Income Expense:
+                              key_list: Other Income Expense
+                            Other Impairment Of Capital Assets:
+                              key_list: Other Impairment Of Capital Assets
+                            Misc Other Special Charges:
+                              key_list: Misc Other Special Charges
+                  add:
+                    Operating income:
+                      key_list: Operating income
+                      children:
+                        sub:
+                          Operating Expense:
+                            key_list: Operating Expense, Total operating expenses
+                            children:
+                              add:
+                                Selling General And Administration:
+                                  key_list: Selling General And Administration, Sales General and administrative
+                                  children:
+                                    add:
+                                      General And Administrative Expense:
+                                        key_list: General And Administrative Expense
+                                      Selling And Marketing Expense:
+                                        key_list: Selling And Marketing Expense
+                                Research and development:
+                                  key_list: Research and development
+                                Other operating expenses:
+                                  key_list: Other operating expenses, Other Special Charges
+                                Non Recurring Operation Expense:
+                                  key_list: Non Recurring Operation Expense
+                                Restructuring, merger and acquisition:
+                                  key_list: Restructuring merger and acquisition, Restructuring And Merger And Acquisition
+                                Impairment Of Capital Assets:
+                                  key_list: Impairment Of Capital Assets
+                              sub:
+                                Special Income Charges:
+                                  key_list: Special Income Charges
+                          Gross profit:
+                            key_list: Gross profit
+                            children:
+                              add:
+                                Revenue:
+                                  key_list: Total Revenue, Revenue
+                              sub:
+                                Cost of revenue:
+                                  key_list: Cost of revenue

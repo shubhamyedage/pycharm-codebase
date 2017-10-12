@@ -1,0 +1,1257 @@
+{
+  "company_name": "",
+  "start_date": "",
+  "end_date": "",
+  "dates": [],
+  "competitor": "",
+  "ratio_states": {
+    "Non-current assets to net worth": {
+      "excellent": [
+        0,
+        0.9
+      ],
+      "fair": [
+        0.9,
+        1.25
+      ],
+      "poor": [
+        1.26,
+        1.6
+      ],
+      "critical": [
+        1.6
+      ]
+    },
+    "Debt ratio": {
+      "excellent": [
+        0,
+        0.3
+      ],
+      "fair": [
+        0.31,
+        0.7
+      ],
+      "poor": [
+        0.71,
+        1
+      ],
+      "critical": [
+        1
+      ]
+    },
+    "Debt to equity ratio": {
+      "excellent": [
+        0,
+        1
+      ],
+      "fair": [
+        1.1,
+        1.5
+      ],
+      "poor": [
+        1.5,
+        2
+      ],
+      "critical": [
+        2
+      ]
+    },
+    "Long-term debt to equity ratio": {
+      "excellent": [
+        0,
+        1
+      ],
+      "fair": [
+        1.1,
+        1.25
+      ],
+      "poor": [
+        1.25,
+        1.5
+      ],
+      "critical": [
+        1.5
+      ]
+    },
+    "Fixed assets to net worth": {
+      "excellent": [
+        0,
+        0.5
+      ],
+      "fair": [
+        0.5,
+        0.75
+      ],
+      "poor": [
+        1.5,
+        2
+      ],
+      "critical": [
+        2
+      ]
+    },
+    "Quick ratio": {
+      "excellent": [
+        1
+      ],
+      "fair": [
+        0.75,
+        1
+      ],
+      "poor": [
+        0.6,
+        0.75
+      ],
+      "critical": [
+        0,
+        0.6
+      ]
+    },
+    "Cash Ratio": {
+      "excellent": [
+        0.2
+      ],
+      "fair": [
+        0.15,
+        0.2
+      ],
+      "poor": [
+        0.12,
+        0.15
+      ],
+      "critical": [
+        0,
+        0.12
+      ]
+    },
+    "ROA": {
+      "excellent": [
+        12
+      ],
+      "fair": [
+        6,
+        11.9
+      ],
+      "poor": [
+        5.9,
+        2
+      ],
+      "critical": [
+        0,
+        2
+      ]
+    },
+    "ROE": {
+      "excellent": [
+        20
+      ],
+      "fair": [
+        19.9,
+        12
+      ],
+      "poor": [
+        11.9,
+        7
+      ],
+      "critical": [
+        0,
+        7
+      ]
+    },
+    "Operation Margin": {
+      "excellent": [
+        20
+      ],
+      "fair": [
+        19.9,
+        10
+      ],
+      "poor": [
+        9.9,
+        6
+      ],
+      "critical": [
+        0,
+        6
+      ]
+    },
+    "Current liability ratio": {},
+    "Capitalization ratio": {},
+    "Current ratio": {
+      "excellent": [
+        2
+      ],
+      "fair": [
+        1.9,
+        1.6
+      ],
+      "poor": [
+        1.2,
+        1.6
+      ],
+      "critical": [
+        0,
+        1.2
+      ]
+    }
+  },
+  "states": {
+    "excellent": [],
+    "fair": [],
+    "poor": [],
+    "critical": []
+  },
+  "weighing_factor": {
+    "Debt ratio": 0.3,
+    "Non-current assets to net worth": 0.15,
+    "Current ratio": 0.2,
+    "Quick ratio": 0.2,
+    "Cash Ratio": 0.15,
+    "ROA": 0.3,
+    "ROE": 0.5,
+    "Operation Margin": 0.2
+  },
+  "fp_score": "",
+  "financial_position_score": "",
+  "financial_performance_score": "",
+  "financial_position_nodes": [
+    "Debt ratio",
+    "Non-current assets to net worth",
+    "Current ratio",
+    "Quick ratio",
+    "Cash Ratio"
+  ],
+  "financial_performance_nodes": [
+    "ROA",
+    "ROE",
+    "Operation Margin"
+  ],
+  "template": {
+    "index": "1. <strong>Title</strong> – {company_name}'s Financial Condition Analysis for the period {start_date} to {end_date}\n2. <strong>Content</strong>\n1. “{company_name}’s” Financial Position Analysis\n1.1. Structure of the Assets and Liabilities\n1.2. Net Assets (Net Worth)\n1.3. Financial Sustainability Analysis\n1.3.1. Key Ratios of the company’s financial sustainability\n1.3.2. Working capital analysis\n1.4. Liquidity Analysis\n2. Financial Performance\n2.1. Overview of the Financial Results\n2.2. Profitability Ratios\n2.3. Analysis of the Business Activity (Turnover Ratios)\n2.4. Labor Productivity\n3. Conclusion\n3.1. Key Ratios Summary\n3.2. Rating of the Financial Position and Financial Performance of {company_name}\n               4.    Appendix\n                      4.1. Bankruptcy Test (Altman Z-score)\n                       4.2. Calculation of the Final Rating of the Financial Condition"
+  },
+  "contents": {
+    "financial_position": {
+      "template": {
+        "title": "1. {company_name}'s Financial Position Analysis\n",
+        "section_1": "The analysis given below on {company_name}’s financial state and operating efficiency is made for the period\n{start_date} to {end_date} based on the financial statements data prepared according to Generally\nAccepted Accounting Principles (GAAP).\n\n"
+      },
+      "nodes_list": {
+        "assets_liabilities_structure": [
+          "Non current assets",
+          "Current Assets",
+          "Inventory",
+          "Receivables",
+          "Cash and cash equivalents",
+          "Equity",
+          "Current Liabilities",
+          "Non Current Liabilities",
+          "Assets"
+        ],
+        "net_assets": [
+          "Net tangible assets",
+          "Equity"
+        ],
+        "financial_sustainability_analysis": [
+          "Debt to equity ratio",
+          "Debt ratio",
+          "Long-term debt to equity ratio",
+          "Non-current assets to net worth",
+          "Capitalization ratio",
+          "Fixed assets to net worth",
+          "Current liability ratio"
+        ],
+        "working_capital_analysis": [
+          "Change In Working Capital",
+          "Change In Inventory",
+          "Working capital sufficiency",
+          "Inventory to working capital ratio"
+        ],
+        "liquidity_analysis": [
+          "Current ratio",
+          "Cash Ratio",
+          "Quick ratio"
+        ],
+        "other_nodes": [
+          "Intangible assets",
+          "Liabilities and Stockholders Equity",
+          "Net Long Term Debt Issuance",
+          "Net Short Term Debt Issuance",
+          "EBIT",
+          "Short-term debt",
+          "Long-term debt"
+        ]
+      },
+      "cause_list": [
+        "Liabilities and Stockholders Equity"
+      ],
+      "assets_liabilities_structure": {
+        "template": {
+          "title": "1.1. Structure of the Assets and Liabilities\n\n",
+          "section_1": "According to the data in the table above, the share of {company_name}’s current assets equaled about a ({ct_assets_last_yr_obs_per_value}%) on\nthe last day of the period analyzed ({end_date}), while non-current assets equaled ({nct_assets_last_yr_obs_per_value}%) of all assets.\nAn {assets_yoy_chg_ind_1} in assets to ${assets_last_yr_obs}m (${assets_yoy_chg}m) was seen during the reviewed period (from {start_date} to\n{end_date}). This {equity_yoy_chg_ind_1} of the equity value is a factor which {equity_yoy_chg_ind_2} describes the dynamics of\n{company_name}’s financial state.\nThe total {assets_yoy_chg_ind_3} of {company_name}’s assets primarily connected with the value {cause_chg_ind_1} of the item {cause_name} by\n${cause_yoy_chg}, that made {cause_yoy_per_chg}% of all {cause_chg_ind_2} changed assets.\nThe most significant {el_yoy_chg_ind} of sources of finance (“Equity and Liabilities”) is seen on the following rates\n(the percentages from total equity and liabilities change is shown in brackets).\n",
+          "cause": "+ {cause_name} $ {cause_yoy_chg}m ({cause_yoy_per_chg}%)\n",
+          "section_2": "The most significantly changed items on the balance sheet for the reviewed period (from {start_date} to {end_date}) are {cause_name} in assets.",
+          "section_3": "The inventories equaled ${inventory_last_obs}m on the last day of the period analyzed ({end_date}). Total change in\ninventories were ${inventory_yoy_chg}m for the entire period.\nThe current receivables {receivables_yoy_chg_ind} by ${receivables_yoy_chg}m for the last 4 yrs.",
+          "table_data": [
+            {
+              "table_index": {
+                "assets_liabilities_structure": [
+                  [
+                    "Indicator",
+                    "Value",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Change for the Period\n Analyzed ",
+                    ""
+                  ],
+                  [
+                    "",
+                    "In Million $",
+                    "",
+                    "",
+                    "",
+                    "% of the Balance Total",
+                    "",
+                    "Million $ \n(col.5-col.2)",
+                    "± %((col.5-\ncol.2)\n: col.2)"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "At the\nBeginning\nof the\nPeriod\nAnalyzed",
+                    "At the End\nof the Period\nAnalyzed",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "The {company_name}'s assets structure on {end_date}.",
+              "chart_info": "",
+              "chart_type": "pie_chart",
+              "axis_data": {
+                "x_ticks": [
+                  "Non current assets",
+                  "Receivables",
+                  "All other current assets"
+                ],
+                "data": [],
+                "explode": [
+                  0,
+                  0.1,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "net_assets": {
+        "template": {
+          "title": "1.2. Net Assets(Net Worth)\n\n",
+          "section_1": "\nThe net tangible assets equaled ${nta_last_obs}m on the last day of the period analyzed. The net tangible assets\nsignificantly {nta_chg_ind} (by {nta_per_chg}%) for the entire period reviewed. The intangible assets were equal to\n${ita_last_obs}m at the end of the period reviewed. In addition, the increase tendency is also confirmed by a\n{nta_trend_ind} trend. This value shows the difference between the value of net tangible assets and all net worth.\nThe net worth (net assets) value is used as one of the tools to estimate the company's value (used together with other methods, such as discounted cash flow method, or an estimation based on shareholder's value\netc.). But it is a key value in the estimation of the company's financial condition.\n",
+          "table_data": [
+            {
+              "table_index": {
+                "net_assets": [
+                  [
+                    "Indicator",
+                    "Value",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Change",
+                    ""
+                  ],
+                  [
+                    "",
+                    "% of the Balance Total",
+                    "",
+                    "",
+                    "",
+                    "In Million $",
+                    "",
+                    "Million $ \n(col.3 - col.2)",
+                    "± %((col.3 -\ncol.2)\n: col.2)"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "At the\nBeginning \nof the\nPeriod \nAnalyzed",
+                    "At the End \nof the Period \nAnalyzed",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "Dynamics of Net assets and Issued capital.",
+              "chart_info": "",
+              "chart_type": "bar_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Equity",
+                    "label": "Million $",
+                    "data": [],
+                    "unit": "Million",
+                    "fill_color": 0,
+                    "legend": "Net worth (Net assets)"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "financial_sustainability_analysis": {
+        "template": {
+          "title": "1.3 Financial Sustainability Analysis\n\n",
+          "header_1": "1.3.1. Key ratios of the {company_name}'s financial sustainability\n\n",
+          "section_1": "First, attention should be drawn to the debt-to-equity ratio and debt ratio as the ratios describing the capital\nstructure. Both ratios have similar meaning and indicate if there is not enough capital (equity) for stable work\nfor the company. Debt-to-equity ratio is calculated as a relationship of the borrowed capital (liabilities) to theequity, while debt ratio is calculated as a relationship of the liabilities to the overall capital (i.e. the sum of\nequity and liabilities).\nThe debt-to-equity equaled {dte_last_yr_obs} at the end of the period analyzed. At the end of the period reviewed, the\ndebt ratio was equal to {debt_ratio_last_yr_obs}. An change in the debt ratio was {debt_ratio_yoy_change} during the entire period analyzed.\nThe Capital structure of the {company_name} is demonstrated in the chart below: ",
+          "section_2": "According to common rules, non-current investments should be made, in the first place, with the help of the most stable source of financing, i.e. with the help of own capital (equity). The non-current assets to Net\nworth ratio shows if this rule is followed. The ratio notably {nca_to_nw_ratio_yoy_chg_ind} to {nca_to_nw_ratio_yoy_chg} during the period analyzed. On\n{end_date}, the ratio shows an {nca_to_nw_ratio_state} value.\nThe current liability ratio {ct_lib_ratio_last_yr_obs} shows that long-term debts make about {ltd_last_yr_obs} on the last day of the period\nanalyzed ({end_date}), while short-term liabilities make {stl_last_yr_obs} of the total liabilities of the company.\nThe following chart demonstrates the dynamics of the main ratios of financial stability of {company_name}.",
+          "header_2": "1.3.2. Working capital analysis\n\n",
+          "section_3": "The working capital was equal to ${wc_last_yr_obs}m on the last day of period analyzed ({end_date}), which\nconsiderably {wc_yoy_chg_ind} ($ {wc_first_yr_obs} m) the level of the working capital on the first day ({start_date}). According to\ncalculations, working capital {wc_yoy_chg_ind_2} covers the inventories of the company and is deemed to be a {wc_yoy_chg_ind_3}\nfactor. The inventory to working capital ratio equaled {in_to_wc_last_obs} on last day of period analysed ({end_date}). It\n{in_to_wc_yoy_chg_ind_1} describes the company's financial state and says about {in_to_wc_yoy_chg_ind_2} long-term sources of\nfinancing, but in some cases it can be caused with warehouse inventories that are too {inventory_yoy_chg_ind}.\n",
+          "table_data": [
+            {
+              "table_index": {
+                "financial_sustainability_analysis": [
+                  [
+                    "Ratio",
+                    "Value",
+                    "",
+                    "",
+                    "",
+                    "Change\n(col.5\n-col.2)",
+                    "Description of\nthe ratio and\nits recommended\nvalue"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            },
+            {
+              "table_index": {
+                "working_capital_analysis": [
+                  [
+                    "Indicator",
+                    "Value",
+                    "",
+                    "",
+                    "",
+                    "(col.5-col.2)",
+                    "%\n((col.5-col.2)\n: col.2)"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "Capital structure of the company on {end_date}.",
+              "chart_info": "",
+              "chart_type": "pie_chart",
+              "axis_data": {
+                "x_ticks": [
+                  "Non Current Liabilities",
+                  "Current Liabilities",
+                  "Equity"
+                ],
+                "data": [],
+                "explode": [
+                  0,
+                  0,
+                  0.1
+                ]
+              }
+            },
+            {
+              "title": "Dynamics of the ratios of the company's financial stability.",
+              "chart_info": "",
+              "chart_type": "line_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Debt ratio",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Debt ratio"
+                  },
+                  {
+                    "node_name": "Non-current assets to net worth",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Non-current assets to net worth"
+                  },
+                  {
+                    "node_name": "Current liability ratio",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Current liability ratio"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Working Capital",
+              "chart_info": "",
+              "chart_type": "bar_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Change In Working Capital",
+                    "label": "Million $",
+                    "data": [],
+                    "unit": "Million",
+                    "fill_color": 0,
+                    "legend": "Working capital"
+                  },
+                  {
+                    "node_name": "Change In Inventory",
+                    "label": "Million $",
+                    "data": [],
+                    "unit": "Million",
+                    "fill_color": 0,
+                    "legend": "Inventory"
+                  },
+                  {
+                    "node_name": "Working capital sufficiency",
+                    "label": "Million $",
+                    "data": [],
+                    "unit": "Million",
+                    "fill_color": 0,
+                    "legend": "Working capital sufficiency"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "liquidity_analysis": {
+        "template": {
+          "title": "1.4. Liquidity Analysis\n\n",
+          "section_1": "Liquidity related ratios are one of the most widespread indicators of a company's solvency. There are three\nliquidity related ratios: current ratio, quick ratio and cash ratio. Current ratio is one of the most widespread\nand shows to what degree the current assets of the company are meeting the current liabilities. The\nsolvency of the company for the near future is described with the quick ratio which reflects if there are\nenough funds for normal execution of current transactions with creditors. The table below demonstrates all\nthree liquidity ratios for {company_name}.",
+          "section_2": "The current ratio amounted to {ct_ratio_last_obs} on {end_date}; that is {ct_ratio_first_obs}  {ct_ratio_yoy_chg_ind_1} than on {start_date}. The value of the ratio can be characterized as {ct_ratio_yoy_chg_ind_2} on {end_date}. During the whole of the evaluated period, the\ncurrent ratio kept a {ct_ratio_yoy_chg_ind_3} value.\nThe quick ratio was seen to go {quick_ratio_yoy_chg_ind_1} from {quick_ratio_first_obs} to {quick_ratio_first_obs} for the period reviewed ({start_date} - {end_date}).\nDuring the reviewed period, multidirectional changes in the ratio (both growth and decrease) were verified.\nThe value of the quick ratio can be described as {quick_ratio_yoy_chg_ind_2} on {end_date}. It means that {company_name} has {quick_ratio_yoy_chg_ind_3}\nassets which can be transferred to cash in a very short time to meet current liabilities.\nThe value of the third ratio, the cash ratio, is similar to the two previous ratios, lies in the {cash_ratio_yoy_chg_ind_1} range at the end of the period analyzed. Company is observed to have {cash_ratio_yoy_chg_ind_2} cash and cash equivalents to meet\nrrent liabilities.",
+          "table_data": [
+            {
+              "intro": "\n\n",
+              "table_info": "\n",
+              "table_index": {
+                "liquidity_analysis": [
+                  [
+                    "Liquidity ratio",
+                    "Value",
+                    "",
+                    "",
+                    "",
+                    "Change\n(col.5-col.2)",
+                    "Description of\nthe ratio and\nits recommended\nvalue"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "Dynamics of the liquidity ratio.",
+              "chart_info": "",
+              "chart_type": "line_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Current ratio",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Current liquidity ratio"
+                  },
+                  {
+                    "node_name": "Quick ratio",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Quick liquidity ratio"
+                  },
+                  {
+                    "node_name": "Cash Ratio",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Cash Ratio"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "other_info": {
+        "Assets": "Assets; Equity\nand Liabilities",
+        "Cash and cash equivalents": "Cash and cash\nequivalents",
+        "Equity": "Net worth",
+        "Debt to equity ratio": "A debt­to­equity\nratio is calculated\nby taking the\ntotal liabilities\nand dividing it by\nshareholders' equity.\nIt is the key\nfinancial ratio\nand used as a\nstandard for judging\na company's financial\nstanding.\nAcceptable value:\nno more than 1.5\n(optimum 0.43­1)",
+        "Debt ratio": "A debt ratio is\ncalculated by dividing\ntotal liabilities\n(i.e. long-term and\nshort-term liabilities)\nby total assets.\nIt shows how much\nthe company relies\non debt to finance\nassets (similar to\ndebt-to-equity ratio).\nNormal value:\n0.6 or less\n(optimum 0.3-0.5).",
+        "Long-term debt to equity ratio": "This ratio is\ncalculated by\ndividing long-term\n(non-current)\nliabilities by\nequity.",
+        "Non-current assets to net worth": "This ratio is\ncalculated by\ndividing long-term\n(non-current) assets\nby net worth\n(equity) and\nmeasures the extent\nof a company's\ninvestment in low-\nliquidity non-current\nassets.\nThis ratio is\nimportant for\ncomparison analysis\nbecause it's less\ndependent on\nindustry (structure\nof company's assets)\nthan debt ratio\nand debt-to-equity\nratio.\nAcceptable value:\nno more than 1.25.",
+        "Capitalization ratio": "Calculated by\ndividing non-current\nliabilities by the\nsum of equity\nand non-current\nliabilities. ",
+        "Fixed assets to net worth": "This ratio indicates\nthe extent to which\nthe owners' cash\nis frozen in the\nform of fixed\nassets, such as\nproperty, plant, and\nequipment, investment\nproperty and\nnon-current biological\nassets.\nAcceptable value:\nno more than 0.75.",
+        "Current liability ratio": "Current liability\nratio is calculated\nby dividing\ncurrent liabilities by\ntotal (i.e. current\nand non-current) liabilities.",
+        "Change In Working Capital": "Working capital\n(net working capital),\nMillion Dollar",
+        "Change In Inventory": "Inventories,\nMillion Dollar",
+        "Inventory to working capital ratio": "Inventory to working\ncapital ratio (2:1)\nAcceptable value:\n1 or less.",
+        "Current ratio": "The current ratio\nis calculated by\ndividing current assets\nby current liabilities.\nIt indicates a company's\nability to meet\nshort-term debt obligations.\nAcceptable value:\n2 or more.",
+        "Cash Ratio": "Cash ratio is\ncalculated by dividing\nabsolute liquid assets\n(cash and cash equivalents)\nby current liabilities.\nNormal value: 0.2 or more.",
+        "Quick ratio": "The quick ratio is\ncalculated by dividing\nliquid assets\n(cash and cash equivalents,\ntrade and other\ncurrent receivables,\nother current financial\nassets) by current\nliabilities.\nIt is a measure of\na company's ability\nto meet its\nshort-term obligations\nusing its most liquid\nassets (near cash\nor quick assets).\nNormal value:\n1 or more.",
+        "Net tangible assets": "Net tangible\nassets",
+        "Non Current Liabilities": "Non Current\nLiabilities",
+        "Non current assets": "Non current\nassets"
+      }
+    },
+    "financial_performance": {
+      "template": {
+        "title": "2. Financial Performance\n\n"
+      },
+      "nodes_list": {
+        "financial_results": [
+          "Revenue",
+          "Cost of revenue",
+          "Gross profit",
+          "Other Income Expense",
+          "EBIT",
+          "Interest Expense",
+          "Income Tax Payable",
+          "Operating Expense"
+        ],
+        "profitability_ratios_table_1": [
+          "Gross Margin",
+          "Operation Margin",
+          "Net Margin",
+          "Interest coverage ratio"
+        ],
+        "profitability_ratios_table_2": [
+          "ROA",
+          "ROE",
+          "ROIC"
+        ],
+        "turnover_ratios": [
+          "Assets",
+          "Current Assets",
+          "Inventory",
+          "Receivables",
+          "Accounts payable",
+          "Equity"
+        ]
+      },
+      "financial_results": {
+        "template": {
+          "title": "2.1. Overview of the Financial Results\n\n",
+          "section_1": "The table below gives information about the main financial results of {company_name}’s activities for the period\nanalyzed (from {start_date} to {end_date}).\n\n",
+          "section_2": "The revenue equaled ${revenue_last_obs}m for the last year {end_date}, though  the  revenue  was  {revenue_yoy_chg_ind_1} ${revenue_first_obs}m \n(i.e.  the  {revenue_yoy_chg_ind_2}  equalled  ${revenue_yoy_chg}m). Despite multidirectional changes in the revenue, it was verified\nthat its' {revenue_yoy_chg_ind_3} was up on the whole. The chart below demonstrates the change in revenue and a\ncomprehensive income for {company_name}. The gross profit amounted to ${gross_profit_last_obs}m for the last year. During the\nanalyzed period, it was observed that there was an obvious {gross_profit_yoy_change_ind_1} in the gross profit of ${gross_profit_yoy_change}m or of\n{gross_profit_yoy_per_change}%.\nDuring the last year ({end_date}), the company posted a gross profit and earnings before interest and taxes(EBIT), which was ${combined_last_obs_1}m. The comprehensive income of {company_name} was ${com_inc_last_obs} in total for the current year\n{end_date}.",
+          "table_data": [
+            {
+              "table_index": {
+                "financial_results": [
+                  [
+                    "Indicator",
+                    "Value, million Dollars",
+                    "",
+                    "",
+                    "",
+                    "Million Dollar\n(col.5 - col.2)",
+                    "± %(5-2) : 2",
+                    "Average annual\nvalue, Million $"
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "Dynamics of revenue and net profit",
+              "chart_info": "",
+              "chart_type": "bar_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Revenue",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "",
+                    "fill_color": 0,
+                    "legend": "Revenue"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "profitability_ratios": {
+        "template": {
+          "title": "2.2. Profitability Ratios\n\n",
+          "section_1": "For the last period {end_date}, the company {gross_margin_yoy_chg_ind} gross profit and {operating_margin_yoy_chg_ind} from operational and financial\nactivities, which became a reason for {profitability_ratios_values_ind} values of all three profitability ratios given in the table for this\nperiod. During the period {start_date}, the gross margin amounted to {gm_last_obs}%, which is much {gm_yoy_chg_ind} ({gm_yoy_per_change}%)\nthan for the period {end_date}.\nThe profitability calculated by earnings before interest and taxes (Return on sales) is more important from a comparative analyses point of view. During the last period, {end_date}, the return on sales was {operating_margin_last_yr_obs}% per annum, and profitability calculated by net profit was {profit_margin_last_yr_obs}% per annum.",
+          "section_2": "To assess the liabilities that the company should repay for the use of borrowed capital, an interest coverage ratio was calculated. The acceptable value is deemed to be not less than 1.5. In this case, the interest coverage ratio was {icr_last_year_obs} during the last period, {end_date}, which is evidence of “{company_name}’s” capability (inability)\nto pay interest on borrowed assets. It should be considered that not all interest payments are necessarily\nincluded on the income statement. In certain cases, interest is included in investments in non-current asset\nand as a result it is not used to calculate the indicated ratio.",
+          "section_3": "For the period analyzed, the return on assets {roa_yoy_chg_ind_1} from {roa_first_obs}% to {roa_last_obs}% (by {roa_yoy_chg_val}%). During the evaluated\nperiod, multidirectional changes in the return on assets (both growth and reduction) were observed; The\nreturn on assets mainly kept a {roa_ind_1} value during the whole of the analyzed period, none the less it\nturned out to be {roa_ind_2} the norm for the last period {end_date}.\nOne of the most important ratio of business profitability is the return on equity (ROE), which reflects the\nprofitability of investments by the owners. The return on equity for {company_name} during the period {end_date} was\n{roe_last_obs}% per annum. Such a {roe_yoy_chg_ind} rate is evidence of {roe_yoy_chg_ind} business profitability, but it can also depend on\ninternal macroeconomic conditions, under which the company works (for example, inflation rate, interest\nrates, etc).\nThe following chart demonstrates the dynamics of the main rates of return on total assets and equity\nof “{company_name}” for the period analyzed (from {start_date} to {end_date}).",
+          "table_data": [
+            {
+              "table_index": {
+                "profitability_ratios_table_1": [
+                  [
+                    "Profitability ratios",
+                    "Value in %",
+                    "",
+                    "",
+                    "",
+                    "Change\n(col.5 - col.2)",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            },
+            {
+              "table_index": {
+                "profitability_ratios_table_2": [
+                  [
+                    "Profitability ratios",
+                    "Value (per annum), %",
+                    "",
+                    "",
+                    "",
+                    "Change\n(col.5 - col.2)",
+                    "Description of the ratio\nand its reference value",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ],
+          "graph_data": [
+            {
+              "title": "Dynamics of profit ratios.",
+              "chart_type": "line_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "Gross Margin",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Gross Margin"
+                  },
+                  {
+                    "node_name": "Net Margin",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Net Margin"
+                  },
+                  {
+                    "node_name": "Operation Margin",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Operating margin"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Dynamics of total assets and equity ratios",
+              "chart_type": "bar_chart",
+              "axis_data": {
+                "x_axis_data": {
+                  "label": "Dates",
+                  "x_ticks": []
+                },
+                "y_axis_data": [
+                  {
+                    "node_name": "ROA",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Return on assets (ROA)"
+                  },
+                  {
+                    "node_name": "ROE",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Return on equity (ROE)"
+                  },
+                  {
+                    "node_name": "ROIC",
+                    "label": "Value",
+                    "data": [],
+                    "unit": "%",
+                    "fill_color": 0,
+                    "legend": "Return on capital employed (ROIC)"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "turnover_ratios": {
+        "template": {
+          "title": "2.3. Analysis of the Business Activity (Turnover Ratios)\n\n",
+          "section_1": "To assess {company_name}’s business activity, the table below provides the main rates of turnover: receivables,\ninventory, current and total assets turnovers; accounts payable and capital turnovers of the company.\nTurnover ratios have strong industry specifics and depend on activity. This is why an absolute value of the\nratios does not permit making a qualitative assessment.\nWhen assets turnover ratios are analyzed, an increase in ratios (i.e. velocity of circulation) and a reduction\nin circulation days are deemed to be positive dynamics. There is no well-defined interaction for accounts\npayable and capital turnover. In any case, an accurate conclusion can only be made after the reasons that\ncaused these changes are considered.\n\n",
+          "section_2": "* Calculation in days. Ratio value is equal to 365 divided by days outstanding.\n\n For last year, the average collection period (Days Sales Outstanding) was {dso_last_obs} days and the average days payable outstanding was {dpo_last_obs} days as shown in the table. The\nrate of asset turnover means that {company_name}’s  gains revenue equal to the sum of all the available assets every\n365 days (on average during the entire period analyzed).",
+          "table_data": [
+            {
+              "table_index": {
+                "turnover_ratios": [
+                  [
+                    "Turnover ratio",
+                    "Value, days",
+                    "",
+                    "",
+                    "",
+                    "Ratio",
+                    "B Ratio",
+                    "Change, days\n(col.5 - col.2)",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              },
+              "last_row": [
+                "Reference:\nCash conversion cycle",
+                "",
+                "",
+                "",
+                "",
+                "X",
+                "X",
+                "",
+                ""
+              ],
+              "table_nodes": [
+                "Assets",
+                "Current Assets",
+                "Inventory",
+                "Receivables",
+                "Accounts payable",
+                "Equity"
+              ]
+            }
+          ]
+        }
+      },
+      "other_info": {
+        "ROE": "ROE is calculated by\ntaking a year's worth\nof earnings (net profit)\nand dividing them by\nthe average shareholder\nequity for that period,\nand is expressed as\na percentage.\nIt is one of the\nmost important financial\nratios and profitability\nmetrics. Acceptable value:\n no less than 12%.",
+        "ROA": "ROA is calculated\nby dividing net income\nby total assets,\nand displayed as a\npercentage.\nAcceptable value:\n6% or more.",
+        "ROIC": "ROCE / ROIC is\ncalculated by dividing\nEBIT by capital employed\n(equity plus non-current\nliabilities).It indicates the\nefficiency and profitability\nof a company's capital\ninvestments.",
+        "Receivables": "Receivables turnover",
+        "Accounts payable": "Accounts payable turnover",
+        "Inventory": "Inventory turnover",
+        "Assets": "Asset turnover",
+        "Current Assets": "Current asset turnover",
+        "Equity": "Capital turnover",
+        "Interest Expense": "Finance costs",
+        "Interest coverage ratio ": "Reference:\nInterest coverage\nratio (ICR).\nAcceptable value:\nno less than 1.5."
+      }
+    },
+    "conclusion": {
+      "template": {
+        "title": "3. Conclusion\n"
+      },
+      "key_ratios_summary": {
+        "template": {
+          "title": "\n3.1. Key Ratios Summary\n",
+          "section_1": "The main financial state indicator values and {company_name}'s activity results are classified by qualitative assessment according to the results of the analysis for the entire period reviewed and are given below.\n",
+          "section_2": {
+            "excellent": "\nThe analysis revealed the following excellent financial characteristics:\n\n",
+            "fair": "\nThe analysis revealed the following good financial characteristics:\n\n",
+            "poor": "\nThe analysis revealed the following poor financial characteristics:\n\n",
+            "critical": "\nThe analysis revealed the following critical financial characteristics:\n\n",
+            "common_text": "The {node_name} demonstrates a {ratio_state} value of {ratio_last_obs}.\n",
+            "Quick ratio": "An {ratio_state} relationship between liquid assets (current assets minus inventories) and current liabilities\n(quick ratio is {ratio_last_obs}).\n"
+          }
+        }
+      },
+      "ratings": {
+        "template": {
+          "title": "\n3.2. Rating of the Financial Position and Financial Performance of {company_name}\n\n",
+          "section_1": "According to the analytical results given above, the following qualitative assessments were calculated:\n{company_name} 's financial position score is {finan_pos_score} the financial performance score for the last two years is {finan_per_score}.\nAccording to the rating scale, it is AAA (excellent position) and B (satisfactory financial performance),\nrespectively.These scores are obtained considering both key ratios at the end of the period analyzed and\nthe dynamics of the ratios, including their expected values for the next year. Based on these two scores, the\nfinal rating score of  {company_name} 's financial condition was calculated. The financial condition was assessed at the A rate (good).\nAn ‘A’ rating shows a good financial condition of a company and its' capability to meet their likely current\nliabilities. Companies with this rating refer to the category of the borrowers who can obtain credits with high\nprobability (good creditworthiness).",
+          "table_data": [
+            {
+              "table_index": {
+                "ratings": [
+                  [
+                    "Financial performance\nfor the period analyzed\n({start_date}–{end_date})",
+                    "Financial position on {end_date}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "",
+                    "AAA",
+                    "AA",
+                    "A",
+                    "BBB",
+                    "BB",
+                    "B",
+                    "CCC",
+                    "CC",
+                    "C",
+                    "D"
+                  ],
+                  [
+                    "Excellent (AAA)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Very good (AA)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Good (A)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Positive (BBB)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Normal (BB)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Satisfactory (B)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Unsatisfactory (CCC)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Adverse (CC)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Bad (C)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  [
+                    "Critical (D)",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "company_name": "",
+  "tree_type": "",
+  "node_name": "",
+  "node_type": "",
+  "annual_table": {
+    "index": [],
+    "absolute_values": [],
+    "percentage_values": []
+  },
+  "quarterly_table": {
+    "index": [],
+    "absolute_values": [],
+    "percentage_values": []
+  },
+  "cause": {
+    "annual_list": [],
+    "quarterly_list": []
+  },
+  "competitor": [],
+  "valuation": "",
+  "rows": 0,
+  "columns": 0,
+  "image_files": [],
+  "margins": "",
+  "graph_type": "bar_chart",
+  "currency": "$",
+  "annual_data": {
+    "yoy_change": "",
+    "yoy_change_indicator_1": "increased",
+    "yoy_change_indicator_2": "growth",
+    "last_3_years_change": [],
+    "change_speed": "",
+    "change_type": ""
+  },
+  "quarterly_data": {
+    "qoq_change": "",
+    "qoq_change_indicator_1": "grown",
+    "qoq_change_indicator_2": "expanded",
+    "qoq_change_indicator_3": "increasing"
+  }
+}

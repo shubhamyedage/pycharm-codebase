@@ -1,0 +1,17 @@
+default: &default
+  name: shubham; yedage
+  loc: Kolhapur
+
+root:
+  <<: *default
+  info: root info
+  cause: root cause
+  competitor: root competitor kmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm /
+
+node:
+  info: node info
+  cause: node cause
+  competitor: node competitor
+
+my name:
+  name: shubham

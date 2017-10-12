@@ -1,0 +1,62 @@
+Revenue Growth
+Gross Margin
+Operation Margin
+Pretax Margin
+Net Margin
+EBIT Margin
+EBITDA Margin
+Current Ratio
+Quick Ratio
+Long Term Debt Total Capital Ratio
+Interest Coverage
+LongTerm Debt/Equity  
+Debt/Equity  
+Days In Sales
+Days In Inventory
+Days In Payment
+Cash Conversion Cycle
+Receivable Turnover
+Inventory Turnover
+Payment Turnover
+Assets Turnover
+ROE
+ROA
+ROIC
+FCF/Revenue
+Cost Of Revenue
+Gross Profit
+Interest Expense
+Net Income
+Net Income Continuous Operations
+Total Revenue
+Other Income Expense
+Tax Provision
+EBIT
+Gains Losses Not Affecting Retained Earnings
+Cash And Cash Equivalents
+Current Assets
+Current Liabilities
+Inventory
+Long Term Debt
+Receivables
+Retained Earnings
+Total Assets 
+Total Liabilities
+Total Non Current Assets
+Total Non Current Liabilities
+Total Equity
+Working Capital
+Net Tangible Assets
+Non Current Assets to Net Worth
+Debt Ratio
+Short Term Liabilities (Debt)
+Trade and other current receivables
+Capital Turnover
+Current Asset Turnover
+Comprehensive Income
+Inventory to Working Capital Ratio
+Working Capital Sufficiency
+Current Liability Ratio
+Fixed Assets to Net Worth
+Cash/Assets
+Cash Ratio
