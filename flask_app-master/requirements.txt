@@ -7,7 +7,7 @@ decorator==4.1.2
 Django==1.11.2
 et-xmlfile==1.0.1
 firefly-python==0.1.5
-Flask==0.12.2
+Flask==1.0
 fuzzywuzzy==0.15.0
 gunicorn==19.7.1
 httplib2==0.10.3
