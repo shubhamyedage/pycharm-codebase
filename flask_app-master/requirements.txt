@@ -10,7 +10,7 @@ firefly-python==0.1.5
 Flask==0.12.2
 fuzzywuzzy==0.15.0
 gunicorn==19.7.1
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.5
 itsdangerous==0.24
 jdcal==1.3
