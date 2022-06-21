@@ -20,7 +20,7 @@ matplotlib==2.0.0
 networkx==1.11
 nibabel==2.1.0
 num2words==0.5.4
-numpy==1.11.3
+numpy==1.22.0
 olefile==0.44
 openpyxl==2.4.1
 pandas==0.20.1
